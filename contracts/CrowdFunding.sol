@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.27;
 
 contract ProjectFundraiser {
     address public manager;
@@ -80,7 +80,7 @@ contract ProjectFundraiser {
         uint256 _contributed,
         uint256 _deadline,
         bool _goalMet,
-        bool _closed
+        bool _Closed
     ) {
         return (
             fundingGoal,
